@@ -37,9 +37,11 @@ auth_logout();
 
 ### MySQL database
 #### TABLE session
-   uid char(32)
-   iduser int(11)
-   creation_date datetime 
+| Column Name   | Type     |
+| ------------- | -------- |
+| uid           | char(32) |
+| iduser        | int(11)  |
+| creation_date | datetime |
 
 #### TABLE user 
    iduser int(11)
