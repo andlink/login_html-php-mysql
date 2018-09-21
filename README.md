@@ -3,7 +3,7 @@
 Easy script for HTML login 
 
 ### HTML
-Form for login
+Form for login:
 ```html
 <form action="login.php" method="post">
 	<label for="uname">Username</label>
@@ -14,10 +14,26 @@ Form for login
 	<button type="submit">Login</button>
 </form>
 ```
-### PHP
 
-```php
+Form for logout:
+```html
+<form action="logout.php">			
+	<button type="submit">Logout</button>
+</form>
 ```
+
+
+### PHP
+Login function
+```php
+auth_login($_POST['uname'],$_POST['passw']);
+```
+
+Logout function
+```php
+auth_logout();
+```
+
 
 ### MySQL database
 #### TABLE session
