@@ -1,6 +1,6 @@
 ## HTML / PHP LOGIN - session stored in MySQL database
 
-Easy script for HTML login 
+Easy PHP script for HTML login. The sessions are storen in a MySQL database
 
 ### HTML
 Form for login:
