@@ -24,6 +24,4 @@ auth_login($_POST['uname'],$_POST['passw']);
 header("Location: ./index.html.php");
 die();
 
-
 ?>
-
