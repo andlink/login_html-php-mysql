@@ -24,5 +24,4 @@ auth_logout();
 header("Location: ./index.html.php");
 die();
 
-
 ?>
