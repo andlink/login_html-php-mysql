@@ -44,7 +44,8 @@ auth_logout();
 | creation_date | datetime |
 
 #### TABLE user 
-   iduser int(11)
-   username varchar(45)
-   password varchar(32)
-
+| Column Name   | Type        |
+| ------------- | ----------- |
+| iduser        | int(11)     |
+| username      | varchar(45) |
+| password      | varchar(32) |
