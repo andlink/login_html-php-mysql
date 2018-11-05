@@ -63,5 +63,4 @@ $_CONFIG['uid_cookie'] = "uid".$_CONFIG['dbname'];
 $conn = mysql_connect($_CONFIG['host'], $_CONFIG['user'], $_CONFIG['pass']) or die('Unable to make a connection');
 mysql_select_db($_CONFIG['dbname']);
 
-
 ?>
